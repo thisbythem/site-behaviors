@@ -1,7 +1,7 @@
 (function ($) {
   'use strict';
 
-  window.BBlog = {
+  window.TXT = {
     behaviors: {},
 
     installBehaviors: function () {
@@ -10,7 +10,7 @@
           behaviors = $this.data('behavior').trim().split(' ');
 
         $.each(behaviors, function (i, behavior) {
-          var klass = BBlog.behaviors[behavior];
+          var klass = TXT.behaviors[behavior];
           if (klass !== undefined) {
             Object.create(klass).init($this);
           }

@@ -1,7 +1,7 @@
 (function ($) {
   'use strict';
 
-  BBlog.behaviors.equal_height_divs = {
+  TXT.behaviors.equal_height_divs = {
     $targets: [],
 
     currentTallest: 0,

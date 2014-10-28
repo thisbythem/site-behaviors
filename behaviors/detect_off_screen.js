@@ -1,7 +1,7 @@
 (function ($) {
   'use strict';
 
-  BBlog.behaviors.detect_off_screen = {
+  TXT.behaviors.detect_off_screen = {
     $el: null,
     $window: null,
 

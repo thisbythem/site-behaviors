@@ -2,10 +2,10 @@
   'use strict';
 
   $(document).ready(function () {
-    BBlog.installBehaviors();
+    TXT.installBehaviors();
   });
 
   $(document).ajaxComplete(function () {
-    BBlog.installBehaviors();
+    TXT.installBehaviors();
   });
 }(jQuery));

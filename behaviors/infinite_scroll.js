@@ -1,7 +1,7 @@
 (function ($) {
   'use strict';
 
-  BBlog.behaviors.infinite_scroll = {
+  TXT.behaviors.infinite_scroll = {
     $el: null,
     $window: null,
     $loader: null,

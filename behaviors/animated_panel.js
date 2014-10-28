@@ -1,7 +1,7 @@
 (function ($) {
   'use strict';
 
-  BBlog.behaviors.animated_panel = {
+  TXT.behaviors.animated_panel = {
     $el: null,
 
     init: function ($el) {

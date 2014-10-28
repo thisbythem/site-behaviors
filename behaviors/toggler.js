@@ -1,7 +1,7 @@
 (function ($) {
   'use strict';
 
-  BBlog.behaviors.toggler = {
+  TXT.behaviors.toggler = {
     $el: null,
     $target: null,
     $triggers: null,

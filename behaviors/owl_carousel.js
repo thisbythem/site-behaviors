@@ -1,7 +1,7 @@
 (function ($) {
   'use strict';
 
-  BBlog.behaviors.owl_carousel = {
+  TXT.behaviors.owl_carousel = {
     $el: null,
     items: 3,
 

@@ -1,7 +1,7 @@
 (function ($) {
   'use strict';
 
-  BBlog.behaviors.detect_at_top = {
+  TXT.behaviors.detect_at_top = {
     $el: null,
     $window: null,
 

@@ -1,7 +1,7 @@
 (function ($) {
   'use strict';
 
-  BBlog.behaviors.sticky = {
+  TXT.behaviors.sticky = {
     $el: null,
     $window: null,
     offset: 0,
